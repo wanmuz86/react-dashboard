@@ -18,8 +18,8 @@ export default function ListTable(props) {
             props.restaurants.map(val => {
                 return <TableRow>
                     <TableCell>{val.name}</TableCell>
-                    <TableCell>{val.orders}</TableCell>
-                    <TableCell>{val.revenue}</TableCell>
+                    <TableCell>{val.email}</TableCell>
+                    <TableCell>{val.address}</TableCell>
                 </TableRow>
             })
         }
